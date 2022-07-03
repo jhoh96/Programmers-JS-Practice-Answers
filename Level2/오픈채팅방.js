@@ -38,22 +38,3 @@ const input = [
     "Black gas name5"
 ]
 
-const MapAndFilter = (input) => {
-    const answer = [];
-    const array = [];
-    const set = {}
-
-    for(i=0;i<input.length;i++) {
-        array.push(input[i].split(" "))
-    }
-    
-    array.filter((item) => {
-        const [color, form, name] = item;
-        console.log(item.color);
-    })
-
-
-    return answer;
-}
-
-MapAndFilter(input);
